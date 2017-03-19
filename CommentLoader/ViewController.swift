@@ -16,6 +16,13 @@ class ViewController: UIViewController {
         self.addComment(comment: "Test comment1")
         self.addComment(comment: "Test comment2")
         self.addComment(comment: "Test comment3")
+        
+        storageManager.getAll { result in
+            switch result {
+            case .Success(let results): print("success \(results)")
+            case .Failure(let error): print("\(error.description)")
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {

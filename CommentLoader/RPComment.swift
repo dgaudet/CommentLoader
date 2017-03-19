@@ -12,9 +12,13 @@ class RPComment {
     var id: Int?
     var comment: String
     
-    init(comment: String){
+    init(id: Int?, comment: String){
+        self.id = id
         self.comment = comment
-        self.id = nil
+    }
+    
+    convenience init(comment: String){
+        self.init(id: nil, comment: comment)
     }
     
     var description: String {
@@ -25,5 +29,11 @@ class RPComment {
 extension RPComment {
     var persistableRecord: PersistableRecord {
         return PersistableRecord(key: self.id, value: self.comment)
+    }
+}
+
+extension RPComment {
+    convenience init(record: PersistableRecord) {
+        self.init(id: record.key, comment: record.value)
     }
 }
