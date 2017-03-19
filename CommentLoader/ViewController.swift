@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    let storageManager = RPCommentCachPersistanceManager()
+    let storageManager = RPCommentCachePersistanceManager()
 
     func addComment(comment: String){
         let comment = RPComment(comment: comment)

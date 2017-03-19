@@ -27,7 +27,7 @@ struct PersistableRecord {
     let value: String
 }
 
-class RPCommentCachPersistanceManager {
+class RPCommentCachePersistanceManager {
     fileprivate var commentStorage: Dictionary<Int, String>
     fileprivate var idSequence: Int
     
