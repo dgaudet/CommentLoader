@@ -12,6 +12,10 @@
 		05CE228A1E7F2A5A0097745B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CE22881E7F2A5A0097745B /* Main.storyboard */; };
 		05CE228C1E7F2A5A0097745B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CE228B1E7F2A5A0097745B /* Assets.xcassets */; };
 		05CE228F1E7F2A5A0097745B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CE228D1E7F2A5A0097745B /* LaunchScreen.storyboard */; };
+		05CE22971E7F2C690097745B /* RPComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE22961E7F2C690097745B /* RPComment.swift */; };
+		05CE22991E7F2D4A0097745B /* RPCommentDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE22981E7F2D4A0097745B /* RPCommentDataProvider.swift */; };
+		05CE229B1E7F2DAD0097745B /* RPCommentCachePersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE229A1E7F2DAD0097745B /* RPCommentCachePersistanceManager.swift */; };
+		05CE229D1E7F2F210097745B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE229C1E7F2F210097745B /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		05CE228B1E7F2A5A0097745B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05CE228E1E7F2A5A0097745B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05CE22901E7F2A5A0097745B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CE22961E7F2C690097745B /* RPComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPComment.swift; sourceTree = "<group>"; };
+		05CE22981E7F2D4A0097745B /* RPCommentDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPCommentDataProvider.swift; sourceTree = "<group>"; };
+		05CE229A1E7F2DAD0097745B /* RPCommentCachePersistanceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPCommentCachePersistanceManager.swift; sourceTree = "<group>"; };
+		05CE229C1E7F2F210097745B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				05CE228B1E7F2A5A0097745B /* Assets.xcassets */,
 				05CE228D1E7F2A5A0097745B /* LaunchScreen.storyboard */,
 				05CE22901E7F2A5A0097745B /* Info.plist */,
+				05CE22961E7F2C690097745B /* RPComment.swift */,
+				05CE22981E7F2D4A0097745B /* RPCommentDataProvider.swift */,
+				05CE229A1E7F2DAD0097745B /* RPCommentCachePersistanceManager.swift */,
+				05CE229C1E7F2F210097745B /* Result.swift */,
 			);
 			path = CommentLoader;
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05CE229D1E7F2F210097745B /* Result.swift in Sources */,
+				05CE22991E7F2D4A0097745B /* RPCommentDataProvider.swift in Sources */,
 				05CE22871E7F2A5A0097745B /* ViewController.swift in Sources */,
 				05CE22851E7F2A5A0097745B /* AppDelegate.swift in Sources */,
+				05CE229B1E7F2DAD0097745B /* RPCommentCachePersistanceManager.swift in Sources */,
+				05CE22971E7F2C690097745B /* RPComment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +313,7 @@
 				05CE22951E7F2A5A0097745B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
