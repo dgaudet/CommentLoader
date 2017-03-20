@@ -16,6 +16,8 @@
 		05CE22991E7F2D4A0097745B /* RPCommentDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE22981E7F2D4A0097745B /* RPCommentDataProvider.swift */; };
 		05CE229B1E7F2DAD0097745B /* RPCommentCachePersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE229A1E7F2DAD0097745B /* RPCommentCachePersistanceManager.swift */; };
 		05CE229D1E7F2F210097745B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE229C1E7F2F210097745B /* Result.swift */; };
+		05CE229F1E7F66560097745B /* CommentTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE229E1E7F66560097745B /* CommentTableViewDataSource.swift */; };
+		05CE22A11E7F66CC0097745B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE22A01E7F66CC0097745B /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		05CE22981E7F2D4A0097745B /* RPCommentDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPCommentDataProvider.swift; sourceTree = "<group>"; };
 		05CE229A1E7F2DAD0097745B /* RPCommentCachePersistanceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPCommentCachePersistanceManager.swift; sourceTree = "<group>"; };
 		05CE229C1E7F2F210097745B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		05CE229E1E7F66560097745B /* CommentTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewDataSource.swift; sourceTree = "<group>"; };
+		05CE22A01E7F66CC0097745B /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				05CE22981E7F2D4A0097745B /* RPCommentDataProvider.swift */,
 				05CE229A1E7F2DAD0097745B /* RPCommentCachePersistanceManager.swift */,
 				05CE229C1E7F2F210097745B /* Result.swift */,
+				05CE229E1E7F66560097745B /* CommentTableViewDataSource.swift */,
+				05CE22A01E7F66CC0097745B /* CommentCell.swift */,
 			);
 			path = CommentLoader;
 			sourceTree = "<group>";
@@ -150,10 +156,12 @@
 			files = (
 				05CE229D1E7F2F210097745B /* Result.swift in Sources */,
 				05CE22991E7F2D4A0097745B /* RPCommentDataProvider.swift in Sources */,
+				05CE229F1E7F66560097745B /* CommentTableViewDataSource.swift in Sources */,
 				05CE22871E7F2A5A0097745B /* ViewController.swift in Sources */,
 				05CE22851E7F2A5A0097745B /* AppDelegate.swift in Sources */,
 				05CE229B1E7F2DAD0097745B /* RPCommentCachePersistanceManager.swift in Sources */,
 				05CE22971E7F2C690097745B /* RPComment.swift in Sources */,
+				05CE22A11E7F66CC0097745B /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
