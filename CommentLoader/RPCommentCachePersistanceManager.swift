@@ -28,6 +28,8 @@ struct PersistableRecord {
 }
 
 class RPCommentCachePersistanceManager {
+    static let sharedInstance = RPCommentCachePersistanceManager()
+    
     fileprivate var commentStorage: Dictionary<Int, String>
     fileprivate var idSequence: Int
     
