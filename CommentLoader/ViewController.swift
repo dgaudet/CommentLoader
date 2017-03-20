@@ -33,8 +33,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         dataProvider.fetchAll()
         
-        self.saveComment(comment: "Test comment1")
-        self.saveComment(comment: "Test comment2")
+        self.saveComment(comment: "Here is a small comment app for you")
+        self.saveComment(comment: "Hello Robots and Pencils")
     }
 
     override func didReceiveMemoryWarning() {
